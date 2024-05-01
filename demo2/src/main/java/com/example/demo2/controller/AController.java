@@ -11,7 +11,7 @@ import lombok.extern.log4j.Log4j2;
 public class AController {
 
 	@RequestMapping("/index")
-	public void index() {
-		
+	public String index() {
+		return "aaa";
 	}
 }
